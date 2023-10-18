@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T18:55:09.340Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="fnjgyKfoZAZIoMZ6NFY7" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T18:57:51.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="r4foXL08Sx3_VSRJMR1d" version="22.0.4" type="github">
   <diagram name="Страница — 1" id="5_0Qeo6E_ln5zNBvkZSz">
-    <mxGraphModel dx="2455" dy="897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2048" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -116,7 +116,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cajsBiBxqNgi6xzSHzBe-104" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-465" y="210" width="405" height="268" as="geometry" />
+          <mxGeometry x="-470" y="260" width="405" height="268" as="geometry" />
         </mxCell>
         <mxCell id="cajsBiBxqNgi6xzSHzBe-75" value="KV&lt;br&gt;&lt;br&gt;UIN&lt;br&gt;-&lt;br&gt;Messenger ID&lt;br&gt;Status" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="cajsBiBxqNgi6xzSHzBe-104">
           <mxGeometry x="185" y="60" width="80" height="140" as="geometry" />
@@ -142,8 +142,23 @@
         <mxCell id="cajsBiBxqNgi6xzSHzBe-102" value="Replica" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cajsBiBxqNgi6xzSHzBe-104">
           <mxGeometry x="195" y="60" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cajsBiBxqNgi6xzSHzBe-103" value="Сюда пишем если&lt;br&gt;офлайн&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="cajsBiBxqNgi6xzSHzBe-104">
-          <mxGeometry x="5" width="60" height="30" as="geometry" />
+        <mxCell id="cajsBiBxqNgi6xzSHzBe-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cajsBiBxqNgi6xzSHzBe-103" target="cajsBiBxqNgi6xzSHzBe-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cajsBiBxqNgi6xzSHzBe-103" value="Сюда пишем если&lt;br&gt;юзер офлайн.&lt;br&gt;Локально в каждом инстансе &lt;br&gt;Messenger" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-528" y="210" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cajsBiBxqNgi6xzSHzBe-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cajsBiBxqNgi6xzSHzBe-106" target="cajsBiBxqNgi6xzSHzBe-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cajsBiBxqNgi6xzSHzBe-106" value="Копия &lt;br&gt;в каждом инстансе" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cajsBiBxqNgi6xzSHzBe-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cajsBiBxqNgi6xzSHzBe-107" target="cajsBiBxqNgi6xzSHzBe-102">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cajsBiBxqNgi6xzSHzBe-107" value="Копия &lt;br&gt;в каждом инстансе" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="220" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
