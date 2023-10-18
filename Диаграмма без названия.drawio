@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-18T20:15:11.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="P0OrA0wdZd0n4mnC75S-" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-18T20:16:18.077Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="QLOcjFy8F-B2XlzHLkNK" version="22.0.4" type="github">
   <diagram name="Страница — 1" id="5_0Qeo6E_ln5zNBvkZSz">
-    <mxGraphModel dx="3047" dy="1224" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2571" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,7 +94,7 @@
         <mxCell id="cajsBiBxqNgi6xzSHzBe-52" value="Load balancer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1258.5" y="700" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="cajsBiBxqNgi6xzSHzBe-56" value="Opened&lt;br&gt;&lt;div&gt;Sessions&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="cajsBiBxqNgi6xzSHzBe-56" value="Redis&lt;br&gt;&lt;br&gt;Opened&lt;br&gt;&lt;div&gt;Sessions&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="1521" y="330" width="90" height="120" as="geometry" />
         </mxCell>
         <mxCell id="cajsBiBxqNgi6xzSHzBe-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cajsBiBxqNgi6xzSHzBe-42" target="cajsBiBxqNgi6xzSHzBe-56">
@@ -150,7 +150,7 @@
         <mxCell id="cajsBiBxqNgi6xzSHzBe-77" value="Messenger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="cajsBiBxqNgi6xzSHzBe-104">
           <mxGeometry x="285" y="90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cajsBiBxqNgi6xzSHzBe-78" value="KV&lt;br&gt;&lt;br&gt;CHAT&lt;br&gt;UIN&lt;br&gt;-&lt;br&gt;&lt;br&gt;USERS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="cajsBiBxqNgi6xzSHzBe-104">
+        <mxCell id="cajsBiBxqNgi6xzSHzBe-78" value="KV&lt;br&gt;&lt;br&gt;CHAT&lt;br&gt;UIN&lt;br&gt;-&lt;br&gt;USERS" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="cajsBiBxqNgi6xzSHzBe-104">
           <mxGeometry x="105" y="60" width="60" height="140" as="geometry" />
         </mxCell>
         <mxCell id="cajsBiBxqNgi6xzSHzBe-98" value="SQL&lt;br&gt;&lt;br&gt;UIN&lt;br&gt;-&lt;br&gt;unsent&lt;br&gt;messages" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="cajsBiBxqNgi6xzSHzBe-104">
